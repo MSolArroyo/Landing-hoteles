@@ -7,9 +7,11 @@ export default function Hero() {
         // src="/placeholder.svg?height=800&width=1200"
         src="/bg.jpg"
         alt="Hotel Paraíso"
-        layout="fill"
-        objectFit="cover"
+        fill
+        // objectFit="cover"
+        style={{ objectFit: "cover" }}
         className="brightness-50"
+        priority
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Bienvenido a Hotel Paraíso</h1>
