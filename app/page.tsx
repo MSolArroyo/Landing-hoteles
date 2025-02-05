@@ -5,7 +5,7 @@ import About from './components/About'
 import Rooms from './components/Rooms'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
 
 
 export default function Home() {
